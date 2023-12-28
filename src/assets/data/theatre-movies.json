@@ -1,0 +1,50 @@
+[
+    {
+      "id": 11,
+      "name": "Ant Man",
+      "cover": "/assets/antman.jpg",
+      "rating": 2.15,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Black Widow",
+      "cover":"/assets/black widow (1).jpg",
+      "rating": 1.85,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Captain Marvel",
+      "cover":"/assets/captain marvel (1).jpg",
+      "rating": 3.25,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Civil War",
+      "cover":"/assets/civil war (1).jpg",
+      "rating": 4.15,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Thor",
+      "cover":"/assets/thor (1).jpg",
+      "rating": 3.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Gardians of Galaxy",
+      "cover":"/assets/guardians of the galaxy (1).jpg",
+      "rating": 3.85,
+      "reviews": [
+      ]
+    }
+  ]

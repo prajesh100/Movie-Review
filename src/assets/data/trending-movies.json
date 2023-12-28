@@ -1,0 +1,57 @@
+[
+    {
+      "id": 17,
+      "name": "Shang Chi",
+      "cover": "/assets/shang-chi (1).jpg",
+      "rating": 3.45,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Spider Man",
+      "cover": "/assets/spider man (1).jpg",
+      "rating": 2.53,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Iron Man",
+      "cover": "/assets/iron man (1).jpg",
+      "rating": 3.12,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Loki",
+      "cover": "/assets/loki (1).jpg",
+      "rating": 4.45,
+      "reviews": [
+        {
+          "author": "Albus Dumbledore",
+          "published_on": "2021-10-13 11:27:39",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Doctor Strange",
+      "cover": "/assets/doctor strange (1).jpg",      
+      "rating": 4.12,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Venom",
+      "cover": "https://resizing.flixster.com/w7oW9FQj1r-lvHn2aNpWEMbXqWc=/180x257/v2/https://resizing.flixster.com/m-_iSmK-QO9H2Iurcv7uu4TrxCM=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzYwZGZhODY3LTI2YzktNGVkYy05YWJlLTVmMGNmMTY2YWZhNS5qcGc=",      
+      "rating": 4.95,
+      "reviews": [
+      ]
+    } 
+
+  ]

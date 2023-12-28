@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Dead Pool",
+      "cover":"/assets/daed pool (1).jpg",
+      "rating": 4.25,
+      "reviews": [
+        {
+          "author": "John Kramer",
+          "published_on": "2021-11-18 11:37:19",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        },
+        {
+          "author": "Harry Potter",
+          "published_on": "2021-10-13 10:16:39",
+          "review": "Nice movie to watch in theatre!",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Black Phanther",
+      "cover":"/assets/black panther (1).jpg",
+      "rating": 4.15,
+      "reviews": [
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dare Devil",
+      "cover":"/assets/daredevil (1).jpg",
+      "rating": 4.13,
+      "reviews": [
+        {
+          "author": "Ron Weasley",
+          "published_on": "2021-10-11 11:57:39",
+          "review": "Good but confusing",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Ghost Rider",
+      "cover":"/assets/ghost rider (1).jpg",
+      "rating": 4.12,
+      "reviews": [
+        {
+          "author": "John Kramer",
+          "published_on": "2020-10-23 11:27:39",
+          "review": "Awesome movie!",
+          "rating": 4.5
+        },
+        {
+          "author": "Hermione Granger",
+          "published_on": "2021-10-11 11:27:39",
+          "review": "Very good movie to watch!",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hulk",
+      "cover":"/assets/hulk (1).jpg",
+      "rating": 4.53,
+      "reviews": [
+        {
+          "author": "Peter Pettigrew",
+          "published_on": "2020-10-13 11:27:39",
+          "review": "Nice graphics!",
+          "rating": 4.5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "X Man",
+      "cover":"/assets/X man (1).jpg",
+      "rating": 4.15,
+      "reviews": [
+        {
+          "author": "Sirius Black",
+          "published_on": "2021-10-13 11:37:29",
+          "review": "Lengthy movie",
+          "rating": 3.5
+        }
+      ]
+    }  
+    
+  ]

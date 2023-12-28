@@ -1,0 +1,113 @@
+<app-header></app-header>
+<div class="home-container">
+    <div class="all-movies">
+        <div class="trending-movies">
+            <div class="top">
+                <h4>Trending Movies</h4>
+                <div class="view-all">View All </div>
+            </div>
+        
+            <div class="movies-thumbnail">
+                <div class="movie" *ngFor="let movie of trendingMovies">
+                    <div class="cover" (click)="goToMovie('trending', movie.id)">
+                        <img [src]="movie.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name" (click)="goToMovie('trending', movie.id)">{{ movie.name }}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{movie.rating}}</span>
+                            <app-star-rating [rating]="movie.rating" [isReadOnly]="true"></app-star-rating>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        <div class="theatre-movies">
+            <div class="top">
+                <h4>Popular in Theatres</h4>
+                <div class="view-all">View All </div>
+            </div>
+            <div class="movies-thumbnail">
+                <div class="movie" *ngFor="let movie of theatreMovies">
+                    <div class="cover" (click)="goToMovie('theatre', movie.id)">
+                        <img [src]="movie.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name" (click)="goToMovie('theatre', movie.id)">{{ movie.name }}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{movie.rating}}</span>
+                            <app-star-rating 
+                            [rating]="movie.rating" 
+                            [isReadOnly]="true"
+                            ></app-star-rating>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Popular-movies">
+            <div class="top">
+                <h4>Block Buster Movies</h4>
+                <div class="view-all">View All </div>
+            </div>
+            <div class="movies-thumbnail">
+                <div class="movie" *ngFor="let movie of PopularMovies">
+                    <div class="cover" (click)="goToMovie('Popular', movie.id)">
+                        <img [src]="movie.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name" (click)="goToMovie('Popular', movie.id)">{{ movie.name }}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{movie.rating}}</span>
+                            <app-star-rating 
+                            [rating]="movie.rating" 
+                            [isReadOnly]="true"
+                            ></app-star-rating>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="popular-movies">
+        <h4>All Time Popular</h4>
+        
+            <div class="movies">
+                   
+                <div class="movie" *ngFor="let movie of PopularMovies">
+                    <div class="name" (click)="goToMovie('popular', movie.id)">{{ movie.name }}</div>
+                        <div class="rating">
+                            <span class="rating-value">{{movie.rating}}</span>
+                            <app-star-rating 
+                            [rating]="movie.rating" 
+                            [isReadOnly]="true"
+                            ></app-star-rating>
+                        </div>
+                    </div>
+                    <div class="view-all">View All</div>
+                    
+                    <p style="font-family: 'Times New Roman', Times, serif;">Marvel's The Avengers[5] (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland),[1][6] or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures,[a] it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, Thor, Natasha Romanoff, and Clint Barton to form a team capable of stopping Thor's brother Loki from subjugating Earth.
+
+                        The film's development began when Marvel Studios received a loan from Merrill Lynch in April 2005. After the success of the film Iron Man in May 2008, Marvel announced that The Avengers would be released in July 2011 and would bring together Stark (Downey), Rogers (Evans), Banner (at the time Edward Norton),[b] and Thor (Hemsworth) from Marvel's previous films. With the signing of Johansson as Romanoff in March 2009, Renner as Barton in June 2010, and Ruffalo replacing Norton as Banner in July 2010, the film was pushed back for a 2012 release. Whedon was brought on board in April 2010 and rewrote the original screenplay by Zak Penn. Production began in April 2011 in Albuquerque, New Mexico, before moving to Cleveland, Ohio in August and New York City in September. The film has more than 2,200 visual effects shots.
+                    </p>
+                
+            </div>
+        
+    </div>
+
+
+</div>

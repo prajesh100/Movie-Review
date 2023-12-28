@@ -1,0 +1,22 @@
+.header-container{
+    width: 100%;
+    height: 55px;
+    background:linear-gradient(to bottom right,#f10808,#0d0d0df4);
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        font-size: 30px;
+        font-weight:bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 4px;
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    .logout{
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+}
